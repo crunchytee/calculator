@@ -1,0 +1,49 @@
+:root {
+  font-family: sans-serif;
+  font-size: 2rem;
+}
+
+.calculator-container {
+  max-width: 12em;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  border: solid 1.5px black;
+}
+
+.button {
+  aspect-ratio: 1;
+  width: 100%;
+  border: solid 1.5px black;
+  font-size: 1em;
+}
+
+.operator {
+  background-color: rgb(255, 153, 0);
+  color: white;
+}
+
+.operator:hover {
+  background-color: rgb(216, 130, 0);
+}
+
+.width-2 {
+  grid-column: span 2;
+  aspect-ratio: 2;
+}
+
+.width-3 {
+  grid-column: span 3;
+  aspect-ratio: 3;
+}
+
+.width-4 {
+  grid-column: span 4;
+}
+
+.display {
+  padding: 1rem 0.25rem;
+  background-color: black;
+  color: white;
+  text-align: end;
+  font-size: 1.2em;
+}
