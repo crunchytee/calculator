@@ -42,9 +42,8 @@ calculator.addEventListener("click", (evt) => {
         handleEquals();
         break;
       default:
-        console.log(evt.target.innerText);
+        console.log(`input not recognized: ${evt.target.innerText}`);
     }
-    console.log(`backup = ${backup}, buffer = ${buffer}`);
   }
 });
 
